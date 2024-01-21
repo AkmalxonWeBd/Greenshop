@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const blog = () => {
+export const Blogs = () => {
   return (
     <div>blog</div>
   )

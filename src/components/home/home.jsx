@@ -4,7 +4,7 @@ import Product from "./product/product"
 
 export default function home() {
   return (
-    <div>
+    <div className='home'>
       <HomePlugn />
       <Product />
     </div>
