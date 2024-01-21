@@ -4,7 +4,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 0px 100px;
+    padding: 0px 8%;
     align-items: center;
 }
 
@@ -13,6 +13,18 @@ header {
     gap: 20px;
     font-size: 20px;
     font-weight: 500;
+}
+
+.menuuu {
+    display: none;
+    cursor: pointer;
+}
+
+.menuuu div {
+    width: 25px;
+    margin: 5px 0 0;
+    height: 3px;
+    background-color: #000000;
 }
 
 .Menu .span {
@@ -41,7 +53,6 @@ button::after {
     background-color: #F36326;
     transition: all 0.4s;
     transform-origin: left;
-
 }
 
 .logoButtons {
@@ -49,9 +60,17 @@ button::after {
     align-items: center;
     gap: 20px;
 }
-.logoButtons img{
+
+.logoButtons1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logoButtons1 img {
     cursor: pointer;
 }
+
 .logoButtons button {
     width: 90px;
     display: flex;
@@ -67,7 +86,62 @@ button::after {
     background-color: #46A358;
     cursor: pointer;
 }
+.buttons11 {
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 22px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    background-color: #46A358;
+    cursor: pointer;
+}
 
+@media (max-width: 850px) {
+    header {
+        padding: 0px 30px;
+    }
+
+    .logoImg img {
+        width: 130px;
+    }
+}
+
+@media (max-width: 700px) {
+    .Menu {
+        transform: scaleX(0);
+        display: none;
+    }
+
+    .menuuu {
+        display: block;
+    }
+
+    .menuuu div {
+        width: 15px;
+        height: 2px;
+        margin: 3px 0 0 0;
+    }
+
+    .buttons11 {
+        width: 40px;
+        height: 30px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 450px) {
+    .logoButtons1 {
+        display: none;
+    }
+
+    .menuuu div {
+        width: 12px;
+        height: 1px;
+        margin: 2px 0 0 0;
+    }
+}
 
 /* ****************************************************************** */
 /* Home */
@@ -76,7 +150,7 @@ button::after {
 .planet .div {
     display: flex;
     justify-content: space-between;
-    padding: 0px 100px;
+    padding: 0px 8%;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
@@ -178,7 +252,7 @@ button::after {
 .con {
     display: flex;
     justify-content: space-between;
-    padding: 0px 7%;
+    padding: 0px 8%;
 }
 
 .Group5 {
@@ -209,21 +283,19 @@ button::after {
 .ant-pagination {
     display: flex;
     justify-content: end;
-    padding: 100px 100px 0px 0px;
+    padding: 100px 8%;
 }
 
 .Summer {
     display: flex;
     justify-content: space-between;
-    padding: 100px 10% 0;
-    gap: 30px;
+    padding: 0px 8%;
 }
 
 .Summerr {
-    width: 90%;
-    display: flex;
+    align-items: center;
     text-align: end;
-    background: #FBFBFB;
+    display: flex;
 }
 
 .Homeblogs {
@@ -289,7 +361,7 @@ button::after {
     font-weight: 700;
     line-height: 16px;
     width: 100%;
-    padding: 50px 100px 0;
+    padding: 50px 8% 0px;
     margin: auto;
 }
 
@@ -510,7 +582,7 @@ button::after {
 }
 
 .Releted_products {
-    padding: 100px 10% 0;
+    padding: 100px 8% 0;
 }
 
 .releted {
@@ -642,46 +714,56 @@ button::after {
     line-height: 30px;
     /* 214.286% */
 }
-.asd{
+
+.asd {
     font-size: 25px;
     gap: 10px;
 }
-.ant-tabs-nav-list{
+
+.ant-tabs-nav-list {
     display: flex;
     width: 100%;
-    padding: 100px 100px 0;
+    padding: 100px 8% 0;
 }
-.main{
+
+.main {
     display: flex;
     width: 93%;
     justify-content: space-between;
     margin: auto;
 }
-.main1nav{
+
+.main1nav {
     display: flex;
     gap: 200px;
 }
-.main1nav2{
+
+.main1nav2 {
     display: flex;
     gap: 50px;
 }
-.main1dis1{
+
+.main1dis1 {
     display: flex;
     gap: 30px;
 
 }
-.navv1{
+
+.navv1 {
     background: #FBFBFB;
     margin: 30px 0;
 }
-.main1disImg{
+
+.main1disImg {
     display: flex;
     gap: 20px;
 
 }
-.del{
+
+.del {
     display: flex;
 }
-.features{
+
+.features {
     width: 100%;
 }

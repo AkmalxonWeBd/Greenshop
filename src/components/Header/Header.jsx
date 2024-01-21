@@ -15,11 +15,18 @@ export default function Header() {
         <NavLink className={`span , span3 ${location.pathname === '/Plant_Care' && 'active'}`} to="/Plant_Care">Plant Care</NavLink>
         <NavLink className={`span , span4 ${location.pathname === '/blogs' && 'active'}`} to="/blogs">blogs</NavLink>
       </div>
+      <div className="menuuu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
       <div className='logoButtons'>
-        <img src="./logoimg/Vector (2).png" alt="" />
-        <Link to="/shoppingCard"><img src="./logoimg/Vector (3).png" alt=""/></Link>
+        <div className='logoButtons1'>
+          <img src="./logoimg/Vector (2).png" alt="" />
+          <Link to="/shoppingCard"><img src="./logoimg/Vector (3).png" alt="" /></Link>
+        </div>
         <div>
-          <button className='buttons'> <img src="./logoimg/Logout.png" alt="" /> Kirish</button>
+          <button className='buttons11'> <img src="./logoimg/Logout.png" alt="" /> Kirish</button>
         </div>
       </div>
     </header>
